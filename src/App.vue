@@ -1,28 +1,17 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <hello-world/>
-  </div>
+  <Todo></Todo>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-
+import Todo from './components/Todo'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Todo
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
